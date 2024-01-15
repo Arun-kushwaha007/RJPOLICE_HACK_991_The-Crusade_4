@@ -58,7 +58,7 @@ class OCR:
 if __name__ == '__main__':
     import random
     ocr = OCR('hi', False)
-    img_path = random.choice(glob.glob('OCR/data/fir_images_from_web/*.png'))
+    img_path = random.choice(glob.glob('data/fir_images_from_web/*.png'))
     print(img_path.split('/')[-1])   
     img = ocr.read_img(img_path)
     text, trans_text = ocr.get_text(img, detail=0, tgt='en', to_be_translated=True)
