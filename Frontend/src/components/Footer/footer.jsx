@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 // import { TitleText } from "../Tracks/CustomTexts";
 import { staggerContainer } from "../Tracks/motion";
 import styles from "../Tracks/style";
-// import { logo } from "../../assets/images";
+import { crusadelogo } from "../../assets/images";
 
 export default function Footer() {
   // const TitleText = ({ title, textStyles }) => (
@@ -32,17 +32,17 @@ export default function Footer() {
     return (
       <React.Fragment>
         <div className="md:flex justify-center gap-5 lg:gap-40 mt-5 font-['Gugi'] ">
-          <div className="flex justify-center mb-2 md:visible">
+          <div className="flex justify-center mb-2  md:visible">
             <a
-              href="https://spec.nith.ac.in/"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-white md:text-lg md:font-bold hover:text-gray-300 "
             >
-              <picture>
+              <picture >
                  <img
-                  className="w-16 md:w-32"
-                  // src= {logo}
+                  className="w-16 mx-4 "
+                  src= {crusadelogo}
                   alt="logo"
                 />
               </picture>
@@ -50,37 +50,10 @@ export default function Footer() {
           </div>
           <div className="flex justify-center mb-4 ">
             <ul>
-              <li className="flex justify-center pb-2 text-sm font-medium text-white md:text-lg md:justify-start">
+              <li className="flex justify-center  text-sm font-medium text-white md:text-lg md:justify-start">
                 RESOURCES
               </li>
-              <li>
-                <a
-                  href="https://drive.google.com/file/d/15Kt6nRhNIgc7XbZNILL035yh8dhro_QP/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
-                >
-                  Source
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://harshmello.notion.site/harshmello/Code-of-Conduct-11809eecfb9a47259aa8557d8d044ec1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
-                >
-                  Code of Conduct
-                </a>{" "}
-                <a
-                  href="https://same-uranium-0e7.notion.site/Hacker-s-Guide-to-ELECTROTHON-5-0-94659968f7d648fda39772bb09660766"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
-                >
-                  Guide
-                </a>{" "}
-              </li>
+              
             </ul>
           </div>
           <div className="flex justify-center mb-4 text-sm text-white md:text-lg ">
@@ -253,7 +226,8 @@ export default function Footer() {
             viewport={{ once: false, amount: 0.25 }}
             className={`${styles.innerWidth} mx-auto flex flex-col`}
           >
-            title={
+            {/* title= */}
+            {
                 <>
                   <span className="text-4xl lg:text-6xl font-bold text-[#def200] my-4 lg:my-6 font-[Oswald] ">
                     Lets talk about everything!
@@ -316,7 +290,7 @@ export default function Footer() {
                   htmlFor="Name"
                 ></label>
                 <div className="flex flex-col gap-4 px-0 py-4 text-xl font-bold">
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="font-medium text-2xl text-gray-600 absolute p-2.5 px-3 w-11"
                     viewBox="0 0 20 20"
@@ -327,7 +301,7 @@ export default function Footer() {
                       d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
                       clipRule="evenodd"
                     />
-                  </svg>
+                  </svg> */}
                   <input
                     className="w-full p-1 pl-10 text-lg text-white bg-transparent border-b-2 border-gray-700 border-dashed focus:outline-none decoration-cyan-400 focus:shadow-outline hover:border-white "
                     type="text"
@@ -343,7 +317,7 @@ export default function Footer() {
                   htmlFor="Sender"
                 ></label>
                 <div className="flex flex-col gap-4 px-0 py-4">
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="font-medium text-2xl text-gray-400 absolute p-2.5 px-3 w-11"
                     fill="none"
@@ -356,7 +330,7 @@ export default function Footer() {
                       strokeWidth="2"
                       d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
                     />
-                  </svg>
+                  </svg> */}
                   <input
                     className="w-full p-1 pl-10 text-lg text-white bg-transparent border-b-2 border-gray-700 border-dashed focus:outline-none focus:shadow-outline hover:border-white"
                     type="email"

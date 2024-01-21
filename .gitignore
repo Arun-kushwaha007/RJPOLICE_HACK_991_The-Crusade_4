@@ -27,3 +27,7 @@ __pycache__
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# database
+backend/db.sqlite3
+backend/media

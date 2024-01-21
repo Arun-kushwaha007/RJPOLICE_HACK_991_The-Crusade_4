@@ -1,0 +1,70 @@
+{
+"Fir": {
+    "FIR": {
+      "District": "",
+      "P.S": "",
+      "Year": "",
+      "FIR No.": "",
+      "Date": "",
+      "ActsAndSections": [
+        {
+          "Act": "Indian Penal Code",
+          "Sections": [
+            {
+              "SectionNo": "154",
+              "Cognizable": true,
+              "Description": "Information in cognizable cases.",
+              "Bailable": "Yes"
+            }
+          ]
+        }
+      ],
+      "OccurrenceOfOffence": {
+        "Day": "",
+        "Date": "",
+        "Time": ""
+      },
+      "InformationReceivedAtPS": {
+        "Date": "",
+        "Time": ""
+      },
+      "GeneralDiaryReference": {
+        "EntryNo": "",
+        "Time": ""
+      },
+      "TypeOfInformation": "",
+      "PlaceOfOccurrence": {
+        "DirectionAndDistanceFromPS": "",
+        "BeatNo": "",
+        "Address": "",
+        "NameOfPSIfOutsideLimit": "",
+        "District": ""
+      },
+      "ComplainantInformation": {
+        "Name": "",
+        "FatherOrHusbandName": "",
+        "DateOfBirth": "",
+        "Nationality": "",
+        "PassportNo": "",
+        "DateOfIssue": "",
+        "PlaceOfIssue": "",
+        "Occupation": "",
+        "Address": ""
+      },
+      "DetailsOfAccused": "",
+      "ReasonsForDelayInReporting": "",
+      "ParticularsOfPropertiesStolenOrInvolved": "",
+      "TotalValueOfProperties": "",
+      "InquestReportUDCaseNo": "",
+      "FIRContents": "",
+      "ActionTaken": "",
+      "OfficerInCharge": {
+        "Name": "",
+        "Rank": "",
+        "No": ""
+      },
+      "SignatureOrThumbImpression": "",
+      "DateAndTimeOfDespatchToTheCourt": ""
+    }
+  }
+}

@@ -22,3 +22,14 @@ class UserUploadedFile(models.Model):
     # user = models.ForeignKey(CustomUser, on_delete=models.SET_NULL, null=True)
     file = models.FileField(upload_to="media/uploads/")
     uploaded_at = models.DateTimeField(auto_now_add=True)
+
+
+class Result(models.Model):
+    file = models.ForeignKey(UserUploadedFile, on_delete=models.PROTECT)
+    section_identified = models.CharField(max_length=100)
+    offence_detected = models.CharField(max_length=1000)
+    geretaed_explaination = models.TextField()
+    punishment = models.TextField()
+    court = models.CharField(max_length=1000)
+    is_cognizable = models.BooleanField(default=True)
+    is_bailable = models.BooleanField(default=True)

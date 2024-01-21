@@ -9,21 +9,26 @@ import TeamMembers from "../components/Team_Members/team";
 // import Prizes from "../components/prizesnav/prizesmain/prize";
 // import Fir from "../components/Fir/Fir";
 // import Procedure from "../components/Procedure/Procedure";
-import Police_team from "../components/Police_Team/Police_team";
+// import Police_team from "../components/Police_Team/Police_team";
 import Details from "../components/Details/Details";
 import Carousel from "../components/carousel/carousel";
 import Navbar from "../components/Navbar/Navbar";
 import Statement from "../components/Statement/Statement";
+import ImageSearch from "../components/Statement/ImageSearch";
+import Voicesearch from "../components/Statement/Voicesearch";
+import DefaultHome from "../components/HomeComponents/DefaultHome";
+// import DefaultHome from "../DefaultHome";
 
 function Home() {
+
   // const [data,setData] = useState([]);
   // useEffect(()=>{
   //   async function fetchData(){
-  //     console.log();
+  //     console.log(import.meta.env.VITE_API_URL);
   //     try{
-  //       let response = await fetch(" ");
+  //       let response = await fetch(import.meta.env.VITE_API_URL);
   //       if(!response.ok){
-  //         throw new Error(" ");
+  //         throw new Error("error ");
 
   //       }
   //       const result = await response.json();
@@ -40,10 +45,12 @@ function Home() {
     <>
       <div className="relative z-0 bg-primary">
         <div
-          className="bg-black bg-cover 
+          className="  mainbody bg-cover 
       bg-no-repeat bg-center"
         >
-          <Navbar />
+          
+          <DefaultHome/>
+          {/* <Navbar />
 
           <div className="relative z-0">
             <Hero />
@@ -52,17 +59,22 @@ function Home() {
           <AboutSection />
           <Carousel />
           <Statement/>
-          {/* <Carousel /> */}
-          {/* <Fir /> */}
-          <Details />
-          {/* <Procedure /> */}
           <Carousel />
-          {/* <Challenges /> */}
+          <Fir />
+          <ImageSearch/>
+          <div className="container flex justify-center text-white ">
+
+          <Voicesearch/>
+          </div>
+          <Details />
+          <Procedure />
+          <Carousel />
+          <Challenges />
           <Police_team />
 
           <TeamMembers />
           <Faqs />
-          <Footer />
+          <Footer /> */}
         </div>
       </div>
     </>

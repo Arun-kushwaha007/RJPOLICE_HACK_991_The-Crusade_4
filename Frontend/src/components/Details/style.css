@@ -1,3 +1,17 @@
+#jstext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    margin: 5px;
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: cadetblue;
+    color: white;
+}
+
+
 .bloop {
     margin-bottom: 3%;
     

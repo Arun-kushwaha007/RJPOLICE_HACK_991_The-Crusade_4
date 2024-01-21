@@ -21,9 +21,10 @@ html
 
   /* Timeline css */
   body{
-    /* background: #3da3d5; */
+    /* background: #FAFAFF; */
     font-family: "Montserrat",sans-serif;
     font-size: 16px;
+
     color: rgb(53, 53, 53);
   
   }
@@ -70,46 +71,7 @@ html
   }
   
   
-  .registerButton{
-    background-color: #0dffa0;
   
-  }
-  .registerButton:hover{
-    background-color: #03e09e ;
-    
-  }
-  .peopleButton{
-    background-color: #0dffff;
-  
-  }
-  .peopleButton:hover{
-    background-color: #00c4c4 ;
-    
-  }
-  .resultButton{
-    background-color: #f467e1;
-  
-  }
-  .resultButton:hover{
-    background-color: #bf4cb0 ;
-    
-  }
-  .electrothonButton{
-    background-color: #ff650d;
-  
-  }
-  .electrothonButton:hover{
-    background-color: #c7530f ;
-  
-  }
-  .workButton{
-    background-color: #a6aba7;
-  
-  }
-  .workButton:hover{
-    background-color: #c1c7c2 ;
-  
-  }
   
   @media only screen and (max-width:1177px) {
     .vertical-timeline-element-data {

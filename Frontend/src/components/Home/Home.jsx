@@ -7,7 +7,7 @@ import Footer from '../components/Footer/footer';
 import Challenges from '../components/Challenges/Challenges';
 import SpeakersNew from '../components/Speaker/speaker';
 import Prizes from '../components/Prizes/Prizes';
-import Prize from '../components/Prizes/Prizes';
+import Prize from '../components/Prizes/Prizes'
  
 import Timeline from '../components/Timeline/Timeline';
 

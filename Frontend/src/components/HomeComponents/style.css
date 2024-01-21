@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 124px;
+}
+.logos{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:100px;
+    
+
+}
+.length{
+    width: 20px;
+}
+
+.raj{
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.stickybar{
+    background: #4E7690;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+    margin: 10px;
+}
+.emenum{
+    margin: 10px;
+}
+.reto{
+    margin-top: -10px;
+    /* width: 100px; */
+}
+.shade1{
+    /* background-color: black; */
+    background-image: linear-gradient(45deg, black , white);
+    width: 35px;
+    height: 20px;
+    margin: 3px;
+    border-radius:3px ;
+    box-shadow: 0 4px 6px 0px rgb(43, 39, 40);
+    /* opacity: 0.7; */
+
+}
+
+.shade2{
+    background-image: linear-gradient(45deg, black , yellow);
+    box-shadow: 0 4px 6px 0px rgb(43, 39, 40);
+    width: 35px;
+    height: 20px;
+    margin: 3px;
+    border-radius:3px ;
+    opacity: 0.9;
+}
+.shade3{
+    background-image: linear-gradient(45deg, white , orange);
+    width: 35px;
+    height: 20px;
+    margin: 3px;
+    border-radius:3px ;
+    box-shadow: 0 4px 6px 0px rgb(43, 39, 40);
+}
+.shade4{
+    background-image: linear-gradient(45deg, white , rgb(35, 147, 185));
+    width: 35px;
+    height: 20px;
+    margin: 3px;
+    border-radius:3px ;
+    box-shadow: 0 4px 6px 0px rgb(43, 39, 40);
+}
+
+.blueshade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgb(31, 70, 132);
+    width: 35px;
+    height: 18px;
+    color: white;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.cmimage{
+    height: 60px;
+}
+
+.name{
+    text-align:center;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.contentbody{
+    /* position: absolute; */
+    /* background-image: url("/Frontend/src/assets/images/defaultbg.png"); */
+    max-width: 80%;
+    height: 500px;
+}
+.forimage{
+    display: flex ;
+    flex-direction: column;
+    position: absolute;
+top: 300px; left: 180px;
+}
+
+.spacediv{
+    height: 200px;
+}
+
+.lowerdiv{
+    /* background: #000; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    /* padding: 40px; */
+
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FAFAFF;
+    justify-content: center;
+    width : 140px;
+    height: 150px;
+    margin: 40px;
+    border-radius: 10px;
+    transition:.6s ease;
+}
+.logoname{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box:hover{
+    box-shadow: 0 0 20px rgb(43, 39, 40);
+    background-color: #4E7690;
+    width : 180px;
+    height: 200px;
+    color: white;
+    border: solid white 2px;
+    
+    
+}
+
+
+.diiiv{
+    margin-bottom: 2px;
+    background-color: #4E7690;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    background-color: #4E7690;
+    justify-content: space-around;
+}
+
+.numb{
+    height: 20px;
+    margin: 3px;
+}
+
+.visitors{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    margin: 6px;
+}
+
+.whitebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.logosi{
+    width: 30px;
+    color: white;
+    margin-left: 12px;
+}
+
+.insidelogo{
+    width: 35px;
+    
+}
+.footcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.foot{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.lowfoot{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}

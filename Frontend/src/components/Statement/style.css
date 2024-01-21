@@ -39,6 +39,17 @@
     box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.5); /* Adjust the shadow color and intensity as needed */
 }
 
+.buttonShow{
+  width: 150px;
+  margin-top: -40px;
+  margin-left: 655px;
+}
+
+.voicebtn{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 642px;
+}
 .block > div::before {
     content: "";
     position: absolute;

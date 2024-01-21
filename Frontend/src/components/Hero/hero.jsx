@@ -1,7 +1,7 @@
  import React from "react";
 import "./hero.css";
 import {leftElement} from "../../assets/images";
-// import {rightElement } from "../../assets/images";
+import {rightElement } from "../../assets/images";
 
 
 const Hero = () => {
@@ -14,18 +14,18 @@ const Hero = () => {
         </div>
 
         {/* Content Container */}
-        <div className=" header absolute top-0 z-10 text-center p-8 my-6">
+        <div className=" header absolute top-0 z-10 text-center p-8 my-6 ">
       <h1 className="head">Analysis of FIR using AI/ML for proper Act and Section</h1>
         <h1 className="head2">THE CRUSADE </h1>
         <p className="text-lg text-gray-600">
-        Lorem, ipsum dolor sit amet consectetur adipisicing <br/>elit. Distinctio perferendis delectus soluta facere vero possimus
+        Welcome to The Crusade, a team dedicated to revolutionizing legal <br/> processes with innovative solutions.
         </p>
 
       </div>
 
         {/* right */}
         <div className="hidden my-4 mx-4 md:block absolute top-0 right-0 h-full w-1/4 ">
-          {/* <img src={rightElement} /> */}
+          <img src={rightElement} />
         </div>
       </div>
     </>
