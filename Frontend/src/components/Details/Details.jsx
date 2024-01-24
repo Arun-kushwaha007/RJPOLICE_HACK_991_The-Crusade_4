@@ -1,6 +1,7 @@
 import './style.css';
 import React, { useEffect, useState } from 'react';
 import Gallery from './Gallary';
+// import { Gallery } from './Gallary';
 import Tabs from './Tab';
 import { motion } from "framer-motion";
 // import { TitleText } from "../Tracks_new/CustomTexts";

@@ -7,6 +7,7 @@ import axios from 'axios';
 import { useState,useEffect } from 'react';
 // import {Fir} from './content.json'
 import './style.css';
+import {Spinner} from '../Spinner/Spinner';
 
 const Gallery = ({ activeTab }) => {
   
@@ -36,7 +37,7 @@ const Gallery = ({ activeTab }) => {
           
           {/* <div>document.write(showDetails.data);</div> */}
           {/* 1st div - Content */}
-          <div className="flex flex-rows p-3">
+          {/* <div className="flex flex-rows p-3">
             <img
               src={thumb}
               alt={`Image 1`}
@@ -53,9 +54,9 @@ const Gallery = ({ activeTab }) => {
             <p className="text-white">Cognizable: {data.Fir.FIR.Cognizable}</p>
             <p className="text-white">Bailable:  {data.Fir.FIR.Bailable}</p>
             </div>
-          </div>
+          </div> */}
           {/* 2nd div - Image */}
-          <div className='flex justify-center items-center'>
+          {/* <div className='flex justify-center items-center'>
           <p className="text-white">Occurrence Of Offence:</p><br/>
           <div className='container flex'>
           <p className="text-white m-2">
@@ -71,7 +72,7 @@ const Gallery = ({ activeTab }) => {
               style={{ maxWidth: '100%', maxHeight: '100%' }}
             /> */}
             
-          </div>
+          {/* </div> */} 
           {/* 3rd div - Image */}
           {/* <div className='flex justify-center items-center '> */}
           {/* <p className="text-white">{data.Fir.FIR['FIR No.']}</p> */}
@@ -94,5 +95,47 @@ const Gallery = ({ activeTab }) => {
     </div>
   );
 };
+
+
+// export class Gallery extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       error: null,
+//       isLoaded: false,
+//       showDetails: []
+//     };
+//   }
+
+//   async componentDidMount() {
+//     let url = "http://127.0.0.1:8000/api/ocr/file/";
+//     this.setState({ isLoaded: true });
+//     // let data = axios.get(url);
+//     let data = await fetch(url);
+//     let parasedData = await data.json();
+//     console.log(parasedData);
+//     this.setState({ showDetails: parasedData, isLoaded: false });
+
+//   }
+//   render(){
+//     return(
+//       <div className='container my-3'>
+//         {this.state.isLoaded && <Spinner/>}
+//         <div>
+//           {/* {!this.state.isLoaded &&  this.state.showDetails? this.state.showDetails.map((element) => { */}
+//           { this.state.showDetails.map((element) => {
+//             return(
+//               <div className='container' key={element.url}>
+//                 <div >{element}</div>
+//               </div>
+//             )
+//             })}
+//         </div>
+
+//       </div>
+
+//     )
+//   }
+// }
 
 export default Gallery;
