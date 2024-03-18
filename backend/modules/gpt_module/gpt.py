@@ -28,13 +28,17 @@ def generate_fir(prompt:str, temperature:float=0.01):
             (iv) * Other Acts & Sections ………………………………………………………………………..
            
         """.strip()
+        },
+        {
+            'role':'user',
+            'content':prompt
         }
     ]
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo-1106",
         messages=messages,
-        temperature=0.4,
+        temperature=temperature,
         max_tokens=1000,
     )
 
